@@ -21,6 +21,24 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Installation Process
+Major steps to follow for safe and secure installations, such as:
+
+- Step-1 clone project from git via command: git clone https://github.com/aamirabid/imdb-integration.git, and open project in your favorite editor and open terminal.
+- Step-2 Run Command: composer install
+- Step-3 Run Command: npm install
+- Step-4 Run Command: cp .env.example .env
+- Step-5 Run Command: php artisan key:generate
+- Step-6 Configure mysql Database credential with DB name, DB host, DB user, DB user password
+- Step-6 Run Command: php artisan migrate
+- Step-7 Run Command: npm run dev
+- Step-8 Run Command: php artisan serve
+
+PS: Follow package.json and composer.json file for php,laravel,vue, and other dependency version, just for the quick update PHP must be 8, Laravel 9, and vue 3.
+
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
